@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StetcoBiancaLab7.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="personal_image.jpg"
+                HeightRequest="200"
+                WidthRequest="200"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Imagine personalizată" />
+
+            <Label
+                Text="Salut, bine ai venit pe pagina noastra oficiala!"
+                Style="{StaticResource Headline}"
+                FontSize="24"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center" 
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Aceasta este aplicația mea pentru laboratorul 7 din cadrul cursului de .NET MAUI. Sper să vă placă!"
+                Style="{StaticResource SubHeadline}"
+                FontSize="18"
+                HorizontalTextAlignment="Center"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+            <Button
+                x:Name="CounterBtn"
+                Text="Apasă-mă"
+                SemanticProperties.Hint="Contorizează numărul de clicuri"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
