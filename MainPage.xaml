@@ -17,7 +17,7 @@
             <Label
                 Text="Salut, bine ai venit pe pagina noastra oficiala!"
                 Style="{StaticResource Headline}"
-                FontSize="24"
+                FontSize="25"
                 FontAttributes="Bold"
                 HorizontalTextAlignment="Center" 
                 SemanticProperties.HeadingLevel="Level1" />
