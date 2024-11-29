@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StetcoBiancaLab7", "StetcoBiancaLab7.csproj", "{61F4848F-D2BE-42F8-B937-BD83C12C9840}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StetcoBiancaLab7", "StetcoBiancaLab7.csproj", "{61F4848F-D2BE-42F8-B937-BD83C12C9840}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3E325A1C-937F-470E-8DDB-CFE631F44F77}"
+	ProjectSection(SolutionItems) = preProject
+		ListEntryPage.xaml.cs = ListEntryPage.xaml.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
