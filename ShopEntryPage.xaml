@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StetcoBiancaLab7.ShopEntryPage"
+             Title="Shops">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add Shop"
+                     Clicked="OnShopAddedClicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView x:Name="collectionView"
+                            SelectionMode="Single"
+                            SelectionChanged="OnCollectionViewSelectionChanged">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding ShopName}" FontSize="16" />
+                            <Label Text="{Binding Adress}" FontSize="14" TextColor="Gray" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

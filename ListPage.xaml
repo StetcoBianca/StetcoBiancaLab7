@@ -21,6 +21,8 @@
             </Editor.Behaviors>
         </Editor>
 
+        <Picker x:Name="ShopPicker" Title="Enter Shop Name"/>
+
         <!-- Save and Delete Buttons -->
         <Grid>
             <Grid.ColumnDefinitions>
